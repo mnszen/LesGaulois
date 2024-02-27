@@ -25,9 +25,9 @@ public class Village {
 		}
 	}
 
-	public Gaulois trouverHabitant(int index) {
-		if (index >= 0 && index < nbVillageois) {
-			return villageois[index];
+	public Gaulois trouverHabitant(int i) {
+		if (i < nbVillageois) {
+			return villageois[i];
 		}
 		return null;
 	}
