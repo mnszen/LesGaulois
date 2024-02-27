@@ -49,5 +49,6 @@ public class Village {
 		Gaulois obélix = new Gaulois("Obélix",25);
 		village.ajouterHabitant(obélix);
 		village.afficherVillageois();
+		System.out.println(Equipement.BOUCLIER);
 	}
 }
